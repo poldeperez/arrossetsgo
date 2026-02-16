@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useParams } from 'next/navigation';
 
 export default function Home() {
@@ -14,12 +15,17 @@ export default function Home() {
     <>
       {/* Hero Section */}
       <section className="relative h-screen w-full overflow-hidden flex items-center justify-center">
-        {/* Background Image Placeholder */}
-        <div 
-          className="absolute inset-0 bg-cover bg-center z-0" 
-          style={{ backgroundImage: 'url(hero-image.png)' }}
-        >
-            <div className="absolute inset-0 bg-black/20" />
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/hero-image.png"
+            alt="Hero Background"
+            fill
+            priority
+            quality={100}
+            className="object-cover object-center"
+          />
+          <div className="absolute inset-0 bg-black/20 z-10" />
         </div>
 
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
