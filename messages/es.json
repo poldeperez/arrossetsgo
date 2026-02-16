@@ -1,0 +1,37 @@
+{
+  "Navigation": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "history": "Historia",
+    "contact": "Reservas"
+  },
+  "Home": {
+    "heroTitle": "Auténtica Experiencia de Arroz",
+    "heroSubtitle": "Prueba la tradición",
+    "infoTitle": "Nuestra Pasión",
+    "infoText": "Llevamos los mejores arroces a tu mesa.",
+    "bookButton": "Reserva Ahora",
+    "servicesTitle": "Servicios y Eventos",
+    "servicesText": "Desde reuniones íntimas hasta grandes celebraciones, llevamos el auténtico sabor de la paella a tus momentos especiales. Déjanos encargarnos de la comida mientras disfrutas de la compañía.",
+    "servicesButton": "Ver Servicios",
+    "historyTitle": "Nuestra Historia",
+    "historyText": "Fundado con pasión por la tradición, llevamos más de una década sirviendo auténticos sabores mediterráneos. Cada plato cuenta una historia de herencia y excelencia culinaria.",
+    "historyButton": "Leer Más",
+    "galleryTitle": "Galería"
+  },
+  "Services": {
+    "title": "Nuestros Servicios",
+    "description": "Ofrecemos catering para eventos y fiestas privadas."
+  },
+  "History": {
+    "title": "Nuestra Historia",
+    "description": "Fundado en 1990..."
+  },
+  "Contact": {
+    "title": "Reserva Mesa",
+    "description": "Contáctanos en..."
+  },
+  "Footer": {
+    "copyright": "© 2026 ArrossetsGo. Todos los derechos reservados."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "services": "Services",
+    "history": "History",
+    "contact": "Booking"
+  },
+  "Home": {
+    "heroTitle": "Authentic Paella Experience",
+    "heroSubtitle": "Taste the tradition",
+    "infoTitle": "Our Passion",
+    "infoText": "We bring the best rice dishes to your table.",
+    "bookButton": "Book Now",
+    "servicesTitle": "Services and Events",
+    "servicesText": "From intimate gatherings to large celebrations, we bring the authentic taste of paella to your special moments. Let us handle the food while you enjoy the company.",
+    "servicesButton": "View Services",
+    "historyTitle": "Our History",
+    "historyText": "Founded with a passion for tradition, we have been serving authentic Mediterranean flavors for over a decade. Every dish tells a story of heritage and culinary excellence.",
+    "historyButton": "Read More",
+    "galleryTitle": "Gallery"
+  },
+  "Services": {
+    "title": "Our Services",
+    "description": "We offer catering for events and private parties."
+  },
+  "History": {
+    "title": "Our History",
+    "description": "Founded in 1990..."
+  },
+  "Contact": {
+    "title": "Book a Table",
+    "description": "Contact us at..."
+  },
+  "Footer": {
+    "copyright": "© 2026 ArrossetsGo. All rights reserved."
+  }
+}

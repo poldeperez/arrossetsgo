@@ -1,0 +1,37 @@
+{
+  "Navigation": {
+    "home": "Inici",
+    "services": "Serveis",
+    "history": "Història",
+    "contact": "Reserves"
+  },
+  "Home": {
+    "heroTitle": "Experiència d'Arròs Autèntica",
+    "heroSubtitle": "Tasta la tradició",
+    "infoTitle": "La Nostra Passió",
+    "infoText": "Portem els millors arrossos a la teva taula.",
+    "bookButton": "Reserva Ara",
+    "servicesTitle": "Serveis i Esdeveniments",
+    "servicesText": "Des de reunions íntimes fins a grans celebracions, portem l'autèntic sabor de la paella als teus moments especials. Deixa'ns encarregar-nos del menjar mentre gaudeixes de la companyia.",
+    "servicesButton": "Veure Serveis",
+    "historyTitle": "La Nostra Història",
+    "historyText": "Fundat amb passió per la tradició, portem més d'una dècada servint autèntics sabors mediterranis. Cada plat explica una història d'herència i excel·lència culinària.",
+    "historyButton": "Llegir Més",
+    "galleryTitle": "Galeria"
+  },
+  "Services": {
+    "title": "Els Nostres Serveis",
+    "description": "Oferim càtering per a esdeveniments i festes privades."
+  },
+  "History": {
+    "title": "La Nostra Història",
+    "description": "Fundat el 1990..."
+  },
+  "Contact": {
+    "title": "Reserva Taula",
+    "description": "Contacta'ns a..."
+  },
+  "Footer": {
+    "copyright": "© 2026 ArrossetsGo. Tots els drets reservats."
+  }
+}
