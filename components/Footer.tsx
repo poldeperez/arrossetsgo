@@ -1,7 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { Instagram } from 'lucide-react';
+import { Instagram, Linkedin } from 'lucide-react';
 
 export default function Footer() {
   const t = useTranslations('Footer');
@@ -20,11 +20,13 @@ export default function Footer() {
         
         
         {/* Social Icons */}
-        <div className="flex justify-center space-x-6 mb-6 text-gray-400 hover:text-white transition-colors duration-300">
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+        <div className="flex justify-center items-center space-x-6 mb-6 text-gray-400">
+            <a href="https://www.instagram.com/arrossetsgo/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="hover:text-white transition-colors duration-300">
               <Instagram size={24} />
             </a>
-            <span>|</span>
+            <a href="https://www.linkedin.com/in/oriol-goset-reche-437727150/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="hover:text-white transition-colors duration-300">
+              <Linkedin size={24} />
+            </a>
             <p className='font-body'>info@arrossetsgo.com </p>
         </div>
 

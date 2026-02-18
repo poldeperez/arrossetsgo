@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { Playfair_Display, Courier_Prime } from 'next/font/google';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import SmoothScrolling from '../../components/SmoothScrolling';
 import "../globals.css";
 
 const playfair = Playfair_Display({
@@ -38,11 +39,13 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body className={`${playfair.variable} ${courier.variable} antialiased bg-neutral-950 text-neutral-200 font-sans`}>
         <NextIntlClientProvider messages={messages}>
-          <Header locale={locale} />
-          <main className="min-h-screen pt-0 font-body">
-          {children}
-          </main>
-          <Footer />
+          <SmoothScrolling>
+            <Header locale={locale} />
+            <main className="min-h-screen pt-0 font-body">
+            {children}
+            </main>
+            <Footer />
+          </SmoothScrolling>
         </NextIntlClientProvider>
       </body>
     </html>

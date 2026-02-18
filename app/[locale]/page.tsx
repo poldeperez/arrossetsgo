@@ -5,6 +5,8 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useParams } from 'next/navigation';
+import InstagramFeed from '../../components/InstagramFeed';
+import Hero from '../../components/Hero';
 
 export default function Home() {
   const t = useTranslations('Home');
@@ -13,32 +15,7 @@ export default function Home() {
 
   return (
     <>
-      {/* Hero Section */}
-      <section className="relative h-screen w-full overflow-hidden flex items-center justify-center">
-        {/* Background Image */}
-        <div className="absolute inset-0 z-0">
-          <Image
-            src="/hero-image.png"
-            alt="Hero Background"
-            fill
-            priority
-            quality={100}
-            className="object-cover object-center"
-          />
-          <div className="absolute inset-0 bg-black/20 z-10" />
-        </div>
-
-        <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-          <motion.h1 
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
-            className="text-5xl md:text-7xl font-bold font-serif text-white mb-6 tracking-tight leading-tight"
-          >
-            {t('heroTitle')}
-          </motion.h1>
-        </div>
-      </section>
+      <Hero />
 
       {/* Info Section */}
       <section className="py-24 bg-[#F8F3F1] text-black">
@@ -235,6 +212,9 @@ export default function Home() {
             </div>
         </div>
       </section>
+
+      {/* Instagram Feed Section */}
+      <InstagramFeed />
     </>
   );
 }
