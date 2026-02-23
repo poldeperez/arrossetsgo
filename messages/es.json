@@ -9,13 +9,14 @@
     "heroTitle": "Auténtica Experiencia de Arroz",
     "heroSubtitle": "Prueba la tradición",
     "infoTitle": "Nuestra Pasión",
-    "infoText": "Llevamos los mejores arroces a tu mesa.",
+    "infoText": "Disfrutamos buscando la calidad y brutalidad en cada grano de arroz.",
+    "infoText2": "Arrossetsgo. Productos elaborados con respeto, paciencia y pasión.",
     "bookButton": "Reserva Ahora",
     "servicesTitle": "Servicios y Eventos",
     "servicesText": "Desde reuniones íntimas hasta grandes celebraciones, llevamos el auténtico sabor de la paella a tus momentos especiales. Déjanos encargarnos de la comida mientras disfrutas de la compañía.",
     "servicesButton": "Ver Servicios",
     "historyTitle": "Nuestra Historia",
-    "historyText": "Fundado con pasión por la tradición, llevamos más de una década sirviendo auténticos sabores mediterráneos. Cada plato cuenta una historia de herencia y excelencia culinaria.",
+    "historyText": "El 2019 nos abrió las puertas hacia un camino lleno de hallazgos que aún dura, donde a través de la proximidad hemos conseguido llegar a lugares nunca previstos. Cada plato cuenta una historia de herencia y excelencia culinaria.",
     "historyButton": "Leer Más",
     "galleryTitle": "Galería",
     "followUs": "Síguenos en Instagram",
@@ -27,13 +28,15 @@
   },
   "History": {
     "title": "Nuestra Historia",
-    "description": "Fundado en 1990..."
+    "text1": "Todo comenzó un día frío de enero, después de dar una vuelta por la ciudad de Barcelona. Llegamos a casa cargados con unos objetos peculiares e impolutos que nunca habíamos pensado que nos fueran útiles: una paella y su respectivo paellero. Aquel hecho, poco o nada planeado, desbloqueó la curiosidad hacia la cocina, los productos de la tierra y los pilares fundamentales de la gastronomía mediterránea.",
+    "text2": "El 2019 nos abrió las puertas hacia un camino lleno de hallazgos que aún dura, donde a través de la proximidad hemos conseguido llegar a lugares nunca previstos. De norte a sur y de este a oeste, no importa el reto que tuviéramos por delante: hemos estado presentes por toda la península, incluso en las islas Baleares. Una trayectoria posible gracias al apoyo de todas las personas que han confiado en nuestros servicios.",
+    "text3": "Nos adaptamos a las estaciones, a los productos de temporada y de proximidad, haciendo posible cualquier variedad de arrocito. Trabajamos desde la constancia y la sencillez, buscando siempre el equilibrio entre la tradición y la tendencia. No solo queremos ofrecer un servicio que cumpla con las expectativas; trabajamos para superarlas y crear recuerdos que perduren."
   },
   "Contact": {
     "title": "Reserva Mesa",
     "description": "Contáctanos en..."
   },
   "Footer": {
-    "copyright": "© 2026 ArrossetsGo. Todos los derechos reservados."
+    "copyright": "© 2026 Arrossetsgo. Todos los derechos reservados."
   }
 }

@@ -26,7 +26,7 @@ export default function Home() {
                 <img 
                     src="info-image.jpg" 
                     alt="Cooking Paella" 
-                    className="rounded-lg shadow-2xl w-full h-125 object-cover"
+                    className="rounded-lg shadow-2xl w-full h-110 object-cover"
                 />
             </div>
             <div 
@@ -37,7 +37,7 @@ export default function Home() {
                     {t('infoText')}
                 </p>
                 <p className="text-lg text-gray-700 leading-relaxed mb-6 font-body">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    {t('infoText2')}
                 </p>
                 
                 <Link 

@@ -9,13 +9,14 @@
     "heroTitle": "Authentic Paella Experience",
     "heroSubtitle": "Taste the tradition",
     "infoTitle": "Our Passion",
-    "infoText": "We bring the best rice dishes to your table.",
+    "infoText": "We enjoy seeking quality and brutality in every grain of rice.",
+    "infoText2": "Arrossetsgo. Products made with respect, patience and passion.",
     "bookButton": "Book Now",
     "servicesTitle": "Services and Events",
     "servicesText": "From intimate gatherings to large celebrations, we bring the authentic taste of paella to your special moments. Let us handle the food while you enjoy the company.",
     "servicesButton": "View Services",
     "historyTitle": "Our History",
-    "historyText": "Founded with a passion for tradition, we have been serving authentic Mediterranean flavors for over a decade. Every dish tells a story of heritage and culinary excellence.",
+    "historyText": "The year 2019 opened the doors to a path full of discoveries that continues today, where through proximity we have managed to reach unforeseen places. Every dish tells a story of heritage and culinary excellence.",
     "historyButton": "Read More",
     "galleryTitle": "Gallery",
     "followUs": "Follow us on Instagram",
@@ -27,13 +28,15 @@
   },
   "History": {
     "title": "Our History",
-    "description": "Founded in 1990..."
+    "text1": "It all started on a cold January day, after a stroll through the city of Barcelona. We arrived home loaded with some peculiar and pristine objects that we never thought would be useful to us: a paella pan and its burner. That event, little or not at all planned, unlocked a curiosity for cooking, local produce, and the fundamental pillars of Mediterranean gastronomy.",
+    "text2": "The year 2019 opened the doors to a path full of discoveries that continues today, where through proximity we have managed to reach unforeseen places. From north to south and east to west, no matter the challenge ahead: we have been present throughout the peninsula, even in the Balearic Islands. A journey made possible thanks to the support of all the people who have trusted in our services.",
+    "text3": "We adapt to the seasons, to seasonal and local products, making any variety of rice dish possible. We work with perseverance and simplicity, always seeking the balance between tradition and trends. We don't just want to offer a service that meets expectations; we work to exceed them and create memories that last."
   },
   "Contact": {
     "title": "Book a Table",
     "description": "Contact us at..."
   },
   "Footer": {
-    "copyright": "© 2026 ArrossetsGo. All rights reserved."
+    "copyright": "© 2026 Arrossetsgo. All rights reserved."
   }
 }

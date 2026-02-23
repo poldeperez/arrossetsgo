@@ -1,15 +1,16 @@
 import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import { notFound } from 'next/navigation';
-import { Playfair_Display, Courier_Prime } from 'next/font/google';
+import { Courier_Prime } from 'next/font/google';
+import localFont from 'next/font/local';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SmoothScrolling from '../../components/SmoothScrolling';
 import "../globals.css";
 
-const playfair = Playfair_Display({
-  subsets: ['latin'],
-  variable: '--font-playfair',
+const serialAlternate = localFont({
+  src: '../fonts/SerialAlternates.ttf',
+  variable: '--font-serial-alternate',
   display: 'swap',
 });
 
@@ -37,7 +38,7 @@ export default async function LocaleLayout({
  
   return (
     <html lang={locale}>
-      <body className={`${playfair.variable} ${courier.variable} antialiased bg-neutral-950 text-neutral-200 font-sans`}>
+      <body className={`${serialAlternate.variable} ${courier.variable} antialiased bg-neutral-950 text-neutral-200 font-sans`}>
         <NextIntlClientProvider messages={messages}>
           <SmoothScrolling>
             <Header locale={locale} />

@@ -9,13 +9,14 @@
     "heroTitle": "Experiència d'Arròs Autèntica",
     "heroSubtitle": "Tasta la tradició",
     "infoTitle": "La Nostra Passió",
-    "infoText": "Portem els millors arrossos a la teva taula.",
+    "infoText": "Gaudim buscant la qualitat i brutalitat de cada gra d’arròs.",
+    "infoText2": "Arrossetsgo. Productes elaborats amb respecte, paciència i passió.",
     "bookButton": "Reserva Ara",
     "servicesTitle": "Serveis i Esdeveniments",
     "servicesText": "Des de reunions íntimes fins a grans celebracions, portem l'autèntic sabor de la paella als teus moments especials. Deixa'ns encarregar-nos del menjar mentre gaudeixes de la companyia.",
     "servicesButton": "Veure Serveis",
     "historyTitle": "La Nostra Història",
-    "historyText": "Fundat amb passió per la tradició, portem més d'una dècada servint autèntics sabors mediterranis. Cada plat explica una història d'herència i excel·lència culinària.",
+    "historyText": "El 2019 ens va obrir les portes cap a un camí ple de troballes que encara dura, on a través de la proximitat hem aconseguit arribar a indrets mai previstos. Cada plat explica una història d'herència i excel·lència culinària.",
     "historyButton": "Llegir Més",
     "galleryTitle": "Galeria",
     "followUs": "Segueix-nos a Instagram",
@@ -27,13 +28,15 @@
   },
   "History": {
     "title": "La Nostra Història",
-    "description": "Fundat el 1990..."
+    "text1": "Tot va començar un dia fred de gener, després de fer un volt per la ciutat de Barcelona. Vam arribar a casa carregats amb uns objectes peculiars i impol·luts que mai no havíem pensat que ens fossin útils: una paella i el seu respectiu paeller. Aquell fet, poc o gens planejat, va desbloquejar la curiositat cap a la cuina, els productes de la terra i els pilars fomentats de la gastronomia mediterrània.",
+    "text2": "El 2019 ens va obrir les portes cap a un camí ple de troballes que encara dura, on a través de la proximitat hem aconseguit arribar a indrets mai previstos. De nord a sud i d'est a oest, tant se val el repte que tinguéssim al davant: hem estat presents per tota la península, fins i tot a les illes Balears. Una trajectòria possible gràcies al suport de totes les persones que han confiat en els nostres serveis.",
+    "text3": "Ens adaptem a les estacions, als productes de temporada i de proximitat, fent possible qualsevol varietat d’arrosset. Treballem des de la constància i la senzillesa, buscant sempre l'equilibri entre la tradició i la tendència. No només volem oferir un servei que compleixi amb les expectatives; treballem per superar-les i crear records que romanguin."
   },
   "Contact": {
     "title": "Reserva Taula",
     "description": "Contacta'ns a..."
   },
   "Footer": {
-    "copyright": "© 2026 ArrossetsGo. Tots els drets reservats."
+    "copyright": "© 2026 Arrossetsgo. Tots els drets reservats."
   }
 }

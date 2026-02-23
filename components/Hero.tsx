@@ -6,10 +6,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 
 const HERO_IMAGES = [
-  '/hero-image.png',
-  '/image1.jpg', 
-  '/image2.jpg',
-  '/image3.jpg'
+  '/hero1.jpg', 
+  '/hero2.jpg',
+  '/hero3.jpg',
+  '/hero4.jpg'
 ];
 
 export default function Hero() {
