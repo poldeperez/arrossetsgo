@@ -27,9 +27,9 @@ export default function History() {
                 />
             </div>
             <div 
-                className="bg-gray-800 p-8 rounded-lg border border-gray-900"
+                className=""
             >
-                <p className="text-gray-300 leading-relaxed font-body">
+                <p className="text-gray-800 leading-relaxed font-body py-4">
                     {t('text2')}
                 </p>
             </div>
@@ -44,9 +44,9 @@ export default function History() {
                     />
                 </div>
                 <div 
-                    className="w-full md:w-1/2 bg-gray-800 p-8 rounded-lg border border-gray-900 flex flex-col justify-center"
+                    className="w-full md:w-1/2 p-8 rounded-lg border border-gray-900 flex flex-col justify-center"
                 >
-                    <p className="text-gray-300 leading-relaxed font-body">
+                    <p className="text-gray-800 leading-relaxed font-body">
                         {t('text3')}
                     </p>
                 </div>

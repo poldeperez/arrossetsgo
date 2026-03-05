@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 const POSTS = [
   { id: 1, src: '/image1.jpg', alt: 'Instagram Post 1', link: 'https://instagram.com' },
-  { id: 2, src: '/image2.jpg', alt: 'Instagram Post 2', link: 'https://instagram.com' },
+  { id: 2, src: '/image8.jpg', alt: 'Instagram Post 2', link: 'https://instagram.com' },
   { id: 3, src: '/image3.jpg', alt: 'Instagram Post 3', link: 'https://instagram.com' },
   { id: 4, src: '/image4.jpg', alt: 'Instagram Post 4', link: 'https://instagram.com' },
 ];

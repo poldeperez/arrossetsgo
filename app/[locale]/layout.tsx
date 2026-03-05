@@ -1,23 +1,25 @@
 import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import { notFound } from 'next/navigation';
-import { Courier_Prime } from 'next/font/google';
-import localFont from 'next/font/local';
+import { Inter } from 'next/font/google';
+import { Permanent_Marker } from 'next/font/google';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SmoothScrolling from '../../components/SmoothScrolling';
 import "../globals.css";
+import { Analytics } from "@vercel/analytics/next"
 
-const serialAlternate = localFont({
-  src: '../fonts/SerialAlternates.ttf',
-  variable: '--font-serial-alternate',
-  display: 'swap',
-});
-
-const courier = Courier_Prime({
+const courier = Inter({
   weight: ['400', '700'],
   subsets: ['latin'],
   variable: '--font-courier',
+  display: 'swap',
+});
+
+const serialAlternate = Permanent_Marker({
+  weight: '400',
+  subsets: ['latin'],
+  variable: '--font-serial-alternate',
   display: 'swap',
 });
 
@@ -43,10 +45,11 @@ export default async function LocaleLayout({
           <SmoothScrolling>
             <Header locale={locale} />
             <main className="min-h-screen pt-0 font-body">
-            {children}
+              {children}
             </main>
             <Footer />
           </SmoothScrolling>
+          <Analytics />
         </NextIntlClientProvider>
       </body>
     </html>

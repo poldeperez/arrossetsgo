@@ -1,7 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function Services() {
   const t = useTranslations('Services');
@@ -12,37 +12,63 @@ export default function Services() {
         <h1 
           className="text-4xl md:text-5xl font-bold mb-12 text-center text-[#FF6663] font-serif"
         >
-          {t('title')}
+          {t('eventsTitle')}
         </h1>
         
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div 
-            >
-                <img 
-                    src="https://images.unsplash.com/photo-1555244162-803834f70033?q=80&w=2070" 
-                    alt="Catering Service" 
-                    className="rounded-lg shadow-xl w-full h-96 object-cover"
-                />
+        <div className="max-w-[1100] mx-auto mb-16">
+            <div className="space-y-6 text-lg leading-relaxed font-body text-gray-800">
+                <p>{t('paragraph1')}</p>
+                <p>{t('paragraph2')}</p>
             </div>
-            <div>
-                <h3 className="text-2xl font-bold mb-4 font-serif">Events & Catering</h3>
-                <p className="text-gray-800 text-lg leading-relaxed mb-6 font-body">
-                    {t('description')}
-                </p>
-                <ul className="space-y-4 text-gray-800 font-body">
-                    <li className="flex items-center">
-                        <span className="w-2 h-2 bg-[#FF6663] rounded-full mr-3"></span>
-                        Private Parties
-                    </li>
-                    <li className="flex items-center">
-                        <span className="w-2 h-2 bg-[#FF6663] rounded-full mr-3"></span>
-                        Corporate Events
-                    </li>
-                    <li className="flex items-center">
-                        <span className="w-2 h-2 bg-[#FF6663] rounded-full mr-3"></span>
-                        Weddings
-                    </li>
-                </ul>
+        </div>
+
+        <div className="grid md:grid-cols-3 gap-8">
+            {/* Meetings */}
+             <div className="relative w-full aspect-4/5 rounded-lg overflow-hidden shadow-lg group cursor-pointer">
+                <Image 
+                    src="/info-image.jpg" 
+                    alt={t('meetingsTitle')} 
+                    fill
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-black/40 transition-colors duration-300 group-hover:bg-black/50" />
+                <div className="absolute inset-0 flex items-center justify-center p-4">
+                     <h4 className="text-2xl font-bold font-serif text-white text-center drop-shadow-lg z-10">
+                        {t('meetingsTitle')}
+                    </h4>
+                </div>
+            </div>
+
+            {/* Socials */}
+            <div className="relative w-full aspect-4/5 rounded-lg overflow-hidden shadow-lg group cursor-pointer">
+                <Image 
+                    src="/image5.jpg" 
+                    alt={t('socialsTitle')} 
+                    fill
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+                 <div className="absolute inset-0 bg-black/40 transition-colors duration-300 group-hover:bg-black/50" />
+                 <div className="absolute inset-0 flex items-center justify-center p-4">
+                    <h4 className="text-2xl font-bold font-serif text-white text-center drop-shadow-lg z-10">
+                        {t('socialsTitle')}
+                    </h4>
+                </div>
+            </div>
+
+            {/* Enterprises */}
+            <div className="relative w-full aspect-4/5 rounded-lg overflow-hidden shadow-lg group cursor-pointer">
+                <Image 
+                    src="/image1.jpg" 
+                    alt={t('enterprisesTitle')} 
+                    fill
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-black/40 transition-colors duration-300 group-hover:bg-black/50" />
+                <div className="absolute inset-0 flex items-center justify-center p-4">
+                    <h4 className="text-2xl font-bold font-serif text-white text-center drop-shadow-lg z-10">
+                        {t('enterprisesTitle')}
+                    </h4>
+                </div>
             </div>
         </div>
       </div>

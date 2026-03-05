@@ -24,7 +24,13 @@
   },
   "Services": {
     "title": "Nuestros Servicios",
-    "description": "Ofrecemos catering para eventos y fiestas privadas."
+    "description": "Ofrecemos catering para eventos y fiestas privadas.",
+    "eventsTitle": "Eventos y Catering",
+    "paragraph1": "Cocinando a base de calidades y cantidades únicas. Da igual dónde estés o cómo seas: la personalización al detalle y la profesionalidad de cada servicio están hechos para amantes de la carne, el pescado y vegetarianos por igual.",
+    "paragraph2": "En Arrossetsgo nos encanta poner nuestro grano de arroz en tu espacio favorito. Menús, arroces y fideuás a tu gusto.",
+    "meetingsTitle": "Reuniones",
+    "socialsTitle": "Sociales y celebraciones",
+    "enterprisesTitle": "Empresas"
   },
   "History": {
     "title": "Nuestra Historia",
@@ -33,8 +39,12 @@
     "text3": "Nos adaptamos a las estaciones, a los productos de temporada y de proximidad, haciendo posible cualquier variedad de arrocito. Trabajamos desde la constancia y la sencillez, buscando siempre el equilibrio entre la tradición y la tendencia. No solo queremos ofrecer un servicio que cumpla con las expectativas; trabajamos para superarlas y crear recuerdos que perduren."
   },
   "Contact": {
-    "title": "Reserva Mesa",
-    "description": "Contáctanos en..."
+    "title": "Reserva una experiencia",
+    "description": "Contáctanos en...",
+    "name": "Nombre",
+    "email": "Email",
+    "message": "Mensaje",
+    "sendButton": "Enviar Mensaje"
   },
   "Footer": {
     "copyright": "© 2026 Arrossetsgo. Todos los derechos reservados."

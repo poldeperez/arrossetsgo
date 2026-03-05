@@ -56,7 +56,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="text-5xl md:text-7xl font-bold font-serif text-white mb-6 tracking-tight leading-tight"
+          className="text-5xl md:text-6xl font-bold font-serif text-white mb-6 tracking-tight leading-tight uppercase"
         >
           {t('heroTitle')}
         </motion.h1>

@@ -21,12 +21,14 @@ export default function Home() {
       <section className="py-24 bg-[#F8F3F1] text-black">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
             <div 
-                className="w-full md:w-1/2"
+                className="w-full md:w-1/2 relative h-110"
             >
-                <img 
-                    src="info-image.jpg" 
+                <Image 
+                    src="/info-image.jpg" 
                     alt="Cooking Paella" 
-                    className="rounded-lg shadow-2xl w-full h-110 object-cover"
+                    fill
+                    className="rounded-lg shadow-2xl object-cover"
+                    sizes="(max-width: 768px) 100vw, 50vw"
                 />
             </div>
             <div 
@@ -102,10 +104,12 @@ export default function Home() {
                       transition={{ duration: 0.9, ease: "easeOut" }}
                       className="relative w-full md:w-5/12 h-125"
                   >
-                      <img 
-                          src="/image1.jpg" 
+                      <Image 
+                          src="/image9.jpg" 
                           alt="Gallery Image 1" 
-                          className="w-full h-full object-cover rounded-sm shadow-2xl filter brightness-90 hover:brightness-100 transition-all duration-700"
+                          fill
+                          className="object-cover rounded-sm shadow-2xl filter brightness-90 hover:brightness-100 transition-all duration-700"
+                          sizes="(max-width: 768px) 100vw, 40vw"
                       />
                   </motion.div>
 
@@ -117,10 +121,12 @@ export default function Home() {
                       transition={{ duration: 0.9, ease: "easeOut", delay: 0.2 }}
                       className="relative w-full md:w-5/12 h-125 mt-0 md:mt-32 ml-auto"
                   >
-                      <img 
-                          src="/image2.jpg" 
+                      <Image 
+                          src="/image14.jpeg" 
                           alt="Gallery Image 2" 
-                          className="w-full h-full object-cover rounded-sm shadow-2xl filter brightness-90 hover:brightness-100 transition-all duration-700"
+                          fill
+                          className="object-cover rounded-sm shadow-2xl filter brightness-90 hover:brightness-100 transition-all duration-700"
+                          sizes="(max-width: 768px) 100vw, 40vw"
                       />
                   </motion.div>
 
@@ -132,12 +138,14 @@ export default function Home() {
                   whileInView={{ opacity: 1, scale: 1, y: 0 }}
                   viewport={{ once: true, margin: "-100px" }}
                   transition={{ duration: 0.9, ease: "easeOut" }}
-                  className="relative w-full md:w-8/12 h-150 self-center mx-auto"
+                  className="relative w-full md:w-7/12 h-130 self-center mx-auto"
               >
-                  <img 
+                  <Image 
                       src="/image3.jpg" 
                       alt="Gallery Image 3" 
+                      fill
                       className="w-full h-full object-cover rounded-sm shadow-2xl filter brightness-90 hover:brightness-100 transition-all duration-700"
+                      sizes="(max-width: 768px) 100vw, 40vw"
                   />
               </motion.div>
 
@@ -171,10 +179,12 @@ export default function Home() {
                     transition={{ duration: 0.9, ease: "easeOut" }}
                     className="relative w-full md:w-1/2 h-137"
                 >
-                    <img 
+                    <Image 
                         src="/image4.jpg" 
                         alt="Gallery Image 4" 
+                        fill
                         className="w-full h-full object-cover rounded-sm shadow-2xl filter brightness-90 hover:brightness-100 transition-all duration-700"
+                        sizes="(max-width: 768px) 100vw, 40vw"
                     />
                 </motion.div>
               </div>
@@ -185,12 +195,14 @@ export default function Home() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, margin: "-100px" }}
                   transition={{ duration: 0.9, ease: "easeOut" }}
-                  className="relative w-full md:w-4/5 h-162 self-center mx-auto"
+                  className="relative w-full md:w-3/5 h-122 self-center mx-auto"
               >
-                  <img 
-                      src="/image5.jpg" 
+                  <Image 
+                      src="/image12.png" 
                       alt="Gallery Image 5" 
+                      fill
                       className="w-full h-full object-cover rounded-sm shadow-2xl filter brightness-90 hover:brightness-100 transition-all duration-700"
+                      sizes="(max-width: 768px) 100vw, 40vw"
                   />
               </motion.div>
 
@@ -200,12 +212,14 @@ export default function Home() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, margin: "-100px" }}
                   transition={{ duration: 0.9, ease: "easeOut" }}
-                  className="relative w-full md:w-1/2 h-100 self-start md:ml-20"
+                  className="relative w-full md:w-1/3 h-130 self-start md:ml-20"
               >
-                  <img 
-                      src="/image6.jpg" 
+                  <Image 
+                      src="/image2.jpg" 
                       alt="Gallery Image 6" 
+                      fill
                       className="w-full h-full object-cover rounded-sm shadow-2xl filter brightness-90 hover:brightness-100 transition-all duration-700"
+                      sizes="(max-width: 768px) 100vw, 40vw"
                   />
               </motion.div>
 

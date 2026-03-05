@@ -24,7 +24,13 @@
   },
   "Services": {
     "title": "Our Services",
-    "description": "We offer catering for events and private parties."
+    "description": "We offer catering for events and private parties.",
+    "eventsTitle": "Events & Catering",
+    "paragraph1": "Cooking based on unique qualities and quantities. Wherever you are or whoever you are: detail-oriented customization and professionalism of each service are made for lovers of meat, fish, and vegetarians alike.",
+    "paragraph2": "At Arrossetsgo we love to add our grain of rice to your favorite space. Menus, rices, and fideuàs to your taste.",
+    "meetingsTitle": "Meetings",
+    "socialsTitle": "Socials and celebrations",
+    "enterprisesTitle": "Enterprises"
   },
   "History": {
     "title": "Our History",
@@ -33,8 +39,12 @@
     "text3": "We adapt to the seasons, to seasonal and local products, making any variety of rice dish possible. We work with perseverance and simplicity, always seeking the balance between tradition and trends. We don't just want to offer a service that meets expectations; we work to exceed them and create memories that last."
   },
   "Contact": {
-    "title": "Book a Table",
-    "description": "Contact us at..."
+    "title": "Book an experience",
+    "description": "Contact us at...",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message", 
+    "sendButton": "Send Message"
   },
   "Footer": {
     "copyright": "© 2026 Arrossetsgo. All rights reserved."

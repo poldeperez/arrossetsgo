@@ -1,10 +1,43 @@
 'use client';
 
+import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 
 export default function Contact() {
   const t = useTranslations('Contact');
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: ''
+  });
+  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormData(prev => ({
+      ...prev,
+      [e.target.name]: e.target.value
+    }));
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setStatus('loading');
+    
+    // Placeholder for Resend API integration
+    // const response = await fetch('/api/send', {
+    //   method: 'POST',
+    //   headers: { 'Content-Type': 'application/json' },
+    //   body: JSON.stringify(formData),
+    // });
+    
+    // Simulate API call
+    setTimeout(() => {
+        console.log('Form submitted:', formData);
+        setStatus('success');
+        setFormData({ name: '', email: '', message: '' });
+    }, 1500);
+  };
 
   return (
     <div className="pt-24 min-h-screen bg-[#F8F3F1] text-black flex items-center">
@@ -18,27 +51,58 @@ export default function Contact() {
                 {t('title')}
             </motion.h1>
             
-            <form className="space-y-6">
+            <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
-                    <label className="block text-sm font-medium text-gray-200 mb-2 font-body">Name</label>
-                    <input type="text" className="w-full bg-gray-600 border border-neutral-700 rounded p-3 text-white focus:outline-none focus:border-[#FF6663] transition-colors font-body" />
+                    <label className="block text-sm font-medium text-gray-200 mb-2 font-body">{t('name')}</label>
+                    <input 
+                        type="text" 
+                        name="name"
+                        value={formData.name}
+                        onChange={handleChange}
+                        required
+                        className="w-full bg-gray-600 border border-neutral-700 rounded p-3 text-white focus:outline-none focus:border-[#FF6663] transition-colors font-body" 
+                    />
                 </div>
                 <div>
-                    <label className="block text-sm font-medium text-gray-200 mb-2 font-body">Email</label>
-                    <input type="email" className="w-full bg-gray-600 border border-neutral-700 rounded p-3 text-white focus:outline-none focus:border-[#FF6663] transition-colors font-body" />
+                    <label className="block text-sm font-medium text-gray-200 mb-2 font-body">{t('email')}</label>
+                    <input 
+                        type="email" 
+                        name="email"
+                        value={formData.email}
+                        onChange={handleChange}
+                        required
+                        className="w-full bg-gray-600 border border-neutral-700 rounded p-3 text-white focus:outline-none focus:border-[#FF6663] transition-colors font-body" 
+                    />
                 </div>
                 <div>
-                    <label className="block text-sm font-medium text-gray-200 mb-2 font-body">Message</label>
-                    <textarea rows={4} className="w-full bg-gray-600 border border-neutral-700 rounded p-3 text-white focus:outline-none focus:border-[#FF6663] transition-colors font-body"></textarea>
+                    <label className="block text-sm font-medium text-gray-200 mb-2 font-body">{t('message')}</label>
+                    <textarea 
+                        name="message"
+                        rows={4} 
+                        value={formData.message}
+                        onChange={handleChange}
+                        required
+                        className="w-full bg-gray-600 border border-neutral-700 rounded p-3 text-white focus:outline-none focus:border-[#FF6663] transition-colors font-body"
+                    ></textarea>
                 </div>
-                <button type="submit" className="w-full bg-[#FF6663] hover:bg-[#f75754] text-white font-bold py-3 rounded transition-colors font-body">
-                    Send Message
+                <button 
+                    type="submit" 
+                    disabled={status === 'loading'}
+                    className={`w-full bg-[#FF6663] hover:bg-[#f75754] text-white font-bold py-3 rounded transition-colors font-body ${status === 'loading' ? 'opacity-50 cursor-not-allowed' : ''}`}
+                >
+                    {status === 'loading' ? 'Sending...' : t('sendButton')}
                 </button>
+                {status === 'success' && (
+                    <p className="text-green-400 text-center mt-4">Message sent successfully!</p>
+                )}
+                {status === 'error' && (
+                    <p className="text-red-400 text-center mt-4">Something went wrong. Please try again.</p>
+                )}
             </form>
             
             <div className="mt-8 text-center text-gray-200 text-sm">
                 <p>{t('description')}</p>
-                <p>info@arrossetsgo.com | +34 123 456 789</p>
+                <p>hola@arrossetsgo.com | +34 608 491 298</p>
             </div>
         </div>
       </div>

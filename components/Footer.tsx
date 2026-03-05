@@ -27,7 +27,7 @@ export default function Footer() {
             <a href="https://www.linkedin.com/in/oriol-goset-reche-437727150/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="hover:text-white transition-colors duration-300">
               <Linkedin size={24} />
             </a>
-            <p className='font-body'>info@arrossetsgo.com </p>
+            <p className='font-body'>hola@arrossetsgo.com </p>
         </div>
 
         <p className="text-gray-400 font-body">{t('copyright')}</p>

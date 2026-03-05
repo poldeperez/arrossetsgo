@@ -24,7 +24,13 @@
   },
   "Services": {
     "title": "Els Nostres Serveis",
-    "description": "Oferim càtering per a esdeveniments i festes privades."
+    "description": "Oferim càtering per a esdeveniments i festes privades.",
+    "eventsTitle": "Esdeveniments i Catering",
+    "paragraph1": "Cuinant a base de qualitats i quantitats úniques. Tant si val on estiguis o com siguis: la personalització al detall i la professionalitat de cada servei estan fets per amants de la carn, el peix i vegetarians per igual.",
+    "paragraph2": "A Arrossetsgo ens encanta afegir el nostre gra d’arròs en el teu espai preferit. Menús, arrossos i fideuas al teu gust.",
+    "meetingsTitle": "Reunions",
+    "socialsTitle": "Socials i celebracions",
+    "enterprisesTitle": "Empreses"
   },
   "History": {
     "title": "La Nostra Història",
@@ -33,8 +39,12 @@
     "text3": "Ens adaptem a les estacions, als productes de temporada i de proximitat, fent possible qualsevol varietat d’arrosset. Treballem des de la constància i la senzillesa, buscant sempre l'equilibri entre la tradició i la tendència. No només volem oferir un servei que compleixi amb les expectatives; treballem per superar-les i crear records que romanguin."
   },
   "Contact": {
-    "title": "Reserva Taula",
-    "description": "Contacta'ns a..."
+    "title": "Reserva una experiència",
+    "description": "Contacta'ns a...",
+    "name": "Nom",
+    "email": "Email",
+    "message": "Missatge",
+    "sendButton": "Enviar Missatge"
   },
   "Footer": {
     "copyright": "© 2026 Arrossetsgo. Tots els drets reservats."
