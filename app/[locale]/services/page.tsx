@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
+import { Mail, Instagram } from 'lucide-react';
 
 export default function Services() {
   const t = useTranslations('Services');
@@ -16,7 +17,7 @@ export default function Services() {
         </h1>
         
         <div className="max-w-[1100] mx-auto mb-16">
-            <div className="space-y-6 text-lg leading-relaxed font-body text-gray-800">
+            <div className="space-y-6 text-lg leading-relaxed font-body text-gray-800 text-center">
                 <p>{t('paragraph1')}</p>
                 <p>{t('paragraph2')}</p>
             </div>
@@ -70,6 +71,20 @@ export default function Services() {
                     </h4>
                 </div>
             </div>
+
+        <div className="mt-16 text-center font-body md:col-span-3">
+            <h3 className="text-xl font-bold mb-6 text-[#FF6663]">{t('contactInfo')}</h3>
+            <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-12">
+                <a href="mailto:hola@arrossetsgo.com" className="flex items-center gap-3 text-lg hover:text-[#FF6663] transition-colors">
+                    <Mail className="w-6 h-6" />
+                    <span>hola@arrossetsgo.com</span>
+                </a>
+                <a href="https://instagram.com/arrossetsgo" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-lg hover:text-[#FF6663] transition-colors">
+                    <Instagram className="w-6 h-6" />
+                    <span>@arrossetsgo</span>
+                </a>
+            </div>
+        </div>
         </div>
       </div>
     </div>

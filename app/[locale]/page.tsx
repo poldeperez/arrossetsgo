@@ -52,42 +52,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Services Section */}
-      <section className="py-24 bg-gray-800 text-white text-center">
-        <div className="container mx-auto px-4 max-w-3xl">
-          <motion.h2 
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-4xl font-bold mb-8 text-[#FF6663] font-serif"
-          >
-            {t('servicesTitle')}
-          </motion.h2>
-          <motion.p 
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.2 }}
-            className="text-lg text-gray-300 leading-relaxed mb-12 font-body"
-          >
-            {t('servicesText')}
-          </motion.p>
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.4 }}
-          >
-            <Link 
-              href={`/${locale}/services`} 
-              className="inline-block border border-white text-white font-body py-3 px-10 rounded-full text-lg hover:bg-white hover:text-black transition-all duration-300"
-            >
-              {t('servicesButton')}
-            </Link>
-          </motion.div>
-        </div>
-      </section>
-
       {/* Gallery Section */}
       <section className="py-24 bg-[#F8F3F1] overflow-hidden">
         <div className="container mx-auto px-4 relative">
@@ -150,26 +114,23 @@ export default function Home() {
               </motion.div>
 
               {/* Image 4 & History Text Section */}
-              <div className="flex flex-col md:flex-row items-center gap-12 w-full max-w-6xl mx-auto">
+              <div className="flex flex-col md:flex-row items-center gap-24 w-full max-w-6xl mx-auto">
                 {/* History Text - Left */}
                 <motion.div 
-                  initial={{ opacity: 0, x: -50 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.8 }}
-                  className="w-full md:w-1/2 text-left"
-                >
-                  <h3 className="text-4xl font-bold mb-6 text-[#FF6663] font-serif">{t('historyTitle')}</h3>
-                  <p className="text-lg text-gray-700 leading-relaxed mb-8 font-body">
-                    {t('historyText')}
-                  </p>
-                  <Link 
-                    href={`/${locale}/history`} 
-                    className="inline-block border border-gray-800 text-gray-800 font-body py-3 px-8 rounded-full text-lg hover:bg-gray-800 hover:text-white transition-all duration-300"
-                  >
-                    {t('historyButton')}
-                  </Link>
-                </motion.div>
+                  initial={{ opacity: 0, y: 100 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, margin: "-100px" }}
+                  transition={{ duration: 0.9, ease: "easeOut" }}
+                  className="relative w-full md:w-1/3 h-130 self-start md:ml-20"
+              >
+                  <Image 
+                      src="/image2.jpg" 
+                      alt="Gallery Image 6" 
+                      fill
+                      className="w-full h-full object-cover rounded-sm shadow-2xl filter brightness-90 hover:brightness-100 transition-all duration-700"
+                      sizes="(max-width: 768px) 100vw, 40vw"
+                  />
+              </motion.div>
 
                 {/* Image 4 - Right */}
                 <motion.div 
@@ -183,7 +144,7 @@ export default function Home() {
                         src="/image4.jpg" 
                         alt="Gallery Image 4" 
                         fill
-                        className="w-full h-full object-cover rounded-sm shadow-2xl filter brightness-90 hover:brightness-100 transition-all duration-700"
+                        className="w-full h-full object-cover mt-12 rounded-sm shadow-2xl filter brightness-90 hover:brightness-100 transition-all duration-700"
                         sizes="(max-width: 768px) 100vw, 40vw"
                     />
                 </motion.div>
@@ -200,23 +161,6 @@ export default function Home() {
                   <Image 
                       src="/image12.png" 
                       alt="Gallery Image 5" 
-                      fill
-                      className="w-full h-full object-cover rounded-sm shadow-2xl filter brightness-90 hover:brightness-100 transition-all duration-700"
-                      sizes="(max-width: 768px) 100vw, 40vw"
-                  />
-              </motion.div>
-
-               {/* Image 6: Left-Bottom */}
-               <motion.div 
-                  initial={{ opacity: 0, y: 100 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true, margin: "-100px" }}
-                  transition={{ duration: 0.9, ease: "easeOut" }}
-                  className="relative w-full md:w-1/3 h-130 self-start md:ml-20"
-              >
-                  <Image 
-                      src="/image2.jpg" 
-                      alt="Gallery Image 6" 
                       fill
                       className="w-full h-full object-cover rounded-sm shadow-2xl filter brightness-90 hover:brightness-100 transition-all duration-700"
                       sizes="(max-width: 768px) 100vw, 40vw"

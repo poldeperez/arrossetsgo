@@ -30,7 +30,8 @@
     "paragraph2": "A Arrossetsgo ens encanta afegir el nostre gra d’arròs en el teu espai preferit. Menús, arrossos i fideuas al teu gust.",
     "meetingsTitle": "Reunions",
     "socialsTitle": "Socials i celebracions",
-    "enterprisesTitle": "Empreses"
+    "enterprisesTitle": "Empreses",
+    "contactInfo": "Per més informació i reserves contacta:"
   },
   "History": {
     "title": "La Nostra Història",
@@ -44,7 +45,8 @@
     "name": "Nom",
     "email": "Email",
     "message": "Missatge",
-    "sendButton": "Enviar Missatge"
+    "sendButton": "Enviar Missatge",
+    "privacyPolicy": "Accepto el tractament de les meves dades personals"
   },
   "Footer": {
     "copyright": "© 2026 Arrossetsgo. Tots els drets reservats."

@@ -30,7 +30,8 @@
     "paragraph2": "En Arrossetsgo nos encanta poner nuestro grano de arroz en tu espacio favorito. Menús, arroces y fideuás a tu gusto.",
     "meetingsTitle": "Reuniones",
     "socialsTitle": "Sociales y celebraciones",
-    "enterprisesTitle": "Empresas"
+    "enterprisesTitle": "Empresas",
+    "contactInfo": "Para más información y reservas contacta:"
   },
   "History": {
     "title": "Nuestra Historia",
@@ -44,7 +45,8 @@
     "name": "Nombre",
     "email": "Email",
     "message": "Mensaje",
-    "sendButton": "Enviar Mensaje"
+    "sendButton": "Enviar Mensaje",
+    "privacyPolicy": "Acepto el tratamiento de mis datos personales"
   },
   "Footer": {
     "copyright": "© 2026 Arrossetsgo. Todos los derechos reservados."

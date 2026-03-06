@@ -11,6 +11,7 @@ export default function Contact() {
     email: '',
     message: ''
   });
+  const [accepted, setAccepted] = useState(false);
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -35,6 +36,7 @@ export default function Contact() {
     setTimeout(() => {
         console.log('Form submitted:', formData);
         setStatus('success');
+        setAccepted(false);
         setFormData({ name: '', email: '', message: '' });
     }, 1500);
   };
@@ -84,6 +86,21 @@ export default function Contact() {
                         required
                         className="w-full bg-gray-600 border border-neutral-700 rounded p-3 text-white focus:outline-none focus:border-[#FF6663] transition-colors font-body"
                     ></textarea>
+                
+                <div className="flex items-start gap-3">
+                    <input 
+                        type="checkbox" 
+                        id="privacy"
+                        checked={accepted}
+                        onChange={(e) => setAccepted(e.target.checked)}
+                        required
+                        className="mt-1 w-4 h-4 cursor-pointer accent-[#FF6663]"
+                    />
+                    <label htmlFor="privacy" className="text-sm text-gray-200 font-body cursor-pointer">
+                        {t('privacyPolicy')}
+                    </label>
+                </div>
+
                 </div>
                 <button 
                     type="submit" 

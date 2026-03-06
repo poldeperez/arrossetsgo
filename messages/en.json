@@ -30,7 +30,8 @@
     "paragraph2": "At Arrossetsgo we love to add our grain of rice to your favorite space. Menus, rices, and fideuàs to your taste.",
     "meetingsTitle": "Meetings",
     "socialsTitle": "Socials and celebrations",
-    "enterprisesTitle": "Enterprises"
+    "enterprisesTitle": "Enterprises",
+    "contactInfo": "For more info and bookings contact:"
   },
   "History": {
     "title": "Our History",
@@ -44,7 +45,8 @@
     "name": "Name",
     "email": "Email",
     "message": "Message", 
-    "sendButton": "Send Message"
+    "sendButton": "Send Message",
+    "privacyPolicy": "I accept the processing of my personal data"
   },
   "Footer": {
     "copyright": "© 2026 Arrossetsgo. All rights reserved."
