@@ -1,6 +1,7 @@
 import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import { notFound } from 'next/navigation';
+import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { Permanent_Marker } from 'next/font/google';
 import Header from '../../components/Header';
@@ -22,6 +23,36 @@ const serialAlternate = Permanent_Marker({
   variable: '--font-serial-alternate',
   display: 'swap',
 });
+export const metadata: Metadata = {
+  title: {
+    default: 'Arrossetsgo',
+    template: '%s | Arrossetsgo'
+  },
+  description: 'Experiència d\'Arròs Autèntica. Catering, Esdeveniments i més.',
+  openGraph: {
+    title: 'Arrossetsgo',
+    description: 'Experiència d\'Arròs Autèntica.',
+    url: 'https://arrossetsgo.com',
+    siteName: 'Arrossetsgo',
+    images: [
+      {
+        url: '/hero1.jpg',
+        width: 1920,
+        height: 1080,
+        alt: 'Arrossetsgo Hero Image',
+      }
+    ],
+    locale: 'ca_ES',
+    type: 'website',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  icons: {
+    icon: '/LOGO-NEGRO.png',
+  },
+};
 
 export default async function LocaleLayout({
   children,

@@ -44,9 +44,14 @@
     "description": "Contáctanos en...",
     "name": "Nombre",
     "email": "Email",
+    "phone": "Número de teléfono",
     "message": "Mensaje",
     "sendButton": "Enviar Mensaje",
-    "privacyPolicy": "Acepto el tratamiento de mis datos personales"
+    "privacyPolicy": "Acepto el tratamiento de mis datos personales",
+    "successTitle": "¡Mensaje enviado!",
+    "successMessage": "Hemos recibido tu solicitud y nos pondremos en contacto contigo lo antes posible.",
+    "successButton": "Volver al inicio",
+    "errorMessage": "Algo ha salido mal. Por favor, inténtalo de nuevo."
   },
   "Footer": {
     "copyright": "© 2026 Arrossetsgo. Todos los derechos reservados."

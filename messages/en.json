@@ -44,9 +44,14 @@
     "description": "Contact us at...",
     "name": "Name",
     "email": "Email",
+    "phone": "Phone number",
     "message": "Message", 
     "sendButton": "Send Message",
-    "privacyPolicy": "I accept the processing of my personal data"
+    "privacyPolicy": "I accept the processing of my personal data",
+    "successTitle": "Message sent!",
+    "successMessage": "We have received your request and will get back to you as soon as possible.",
+    "successButton": "Back to Home",
+    "errorMessage": "Something went wrong. Please try again."
   },
   "Footer": {
     "copyright": "© 2026 Arrossetsgo. All rights reserved."

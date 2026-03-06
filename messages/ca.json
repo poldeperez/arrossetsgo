@@ -44,9 +44,14 @@
     "description": "Contacta'ns a...",
     "name": "Nom",
     "email": "Email",
+    "phone": "Número de telèfon",
     "message": "Missatge",
     "sendButton": "Enviar Missatge",
-    "privacyPolicy": "Accepto el tractament de les meves dades personals"
+    "privacyPolicy": "Accepto el tractament de les meves dades personals",
+    "successTitle": "Missatge enviat!",
+    "successMessage": "Hem rebut la teva sol·licitud i ens posarem en contacte amb tu el més aviat possible.",
+    "successButton": "Tornar a l'inici",
+    "errorMessage": "Alguna cosa ha anat malament. Si us plau, torna-ho a intentar."
   },
   "Footer": {
     "copyright": "© 2026 Arrossetsgo. Tots els drets reservats."

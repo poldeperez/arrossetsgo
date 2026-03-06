@@ -25,7 +25,7 @@ export default function Services() {
 
         <div className="grid md:grid-cols-3 gap-8">
             {/* Meetings */}
-             <div className="relative w-full aspect-4/5 rounded-lg overflow-hidden shadow-lg group cursor-pointer">
+             <div className="relative w-full aspect-4/5 rounded-lg overflow-hidden shadow-lg group">
                 <Image 
                     src="/info-image.jpg" 
                     alt={t('meetingsTitle')} 
@@ -41,7 +41,7 @@ export default function Services() {
             </div>
 
             {/* Socials */}
-            <div className="relative w-full aspect-4/5 rounded-lg overflow-hidden shadow-lg group cursor-pointer">
+            <div className="relative w-full aspect-4/5 rounded-lg overflow-hidden shadow-lg group">
                 <Image 
                     src="/image5.jpg" 
                     alt={t('socialsTitle')} 
@@ -57,7 +57,7 @@ export default function Services() {
             </div>
 
             {/* Enterprises */}
-            <div className="relative w-full aspect-4/5 rounded-lg overflow-hidden shadow-lg group cursor-pointer">
+            <div className="relative w-full aspect-4/5 rounded-lg overflow-hidden shadow-lg group">
                 <Image 
                     src="/image1.jpg" 
                     alt={t('enterprisesTitle')} 
