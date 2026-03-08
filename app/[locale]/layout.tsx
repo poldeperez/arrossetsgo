@@ -52,6 +52,7 @@ export const metadata: Metadata = {
   icons: {
     icon: '/LOGO-NEGRO.png',
   },
+  keywords: ['paella', 'catering', 'eventos', 'arròs', 'Barcelona', 'fideuà', 'catering empresas', 'takeaway', 'chef']
 };
 
 export default async function LocaleLayout({
